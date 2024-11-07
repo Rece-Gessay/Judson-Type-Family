@@ -1,0 +1,278 @@
+html {
+    box-sizing:border-box;
+}
+
+*, *:before, *:after {
+    box-sizing:inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    
+}
+
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: black; 
+    width: 100%;
+    position: fixed;
+    border-bottom: solid white 5px;
+    margin: 0;
+}  
+    
+
+
+.navbar {
+    display: grid;
+    grid-template-columns:auto auto auto auto auto;
+    margin-top: 45px;
+    margin-right: 25px;
+    font-style: italic;
+    font-size: 25px;
+
+}
+
+.title {
+    font-style: italic;
+    font-size: 115px;
+    margin-left: 35px;
+
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(126, 126, 126);
+    text-decoration: underline;
+}
+
+
+.paragraphs {
+    margin-left: 25px;
+    margin-right: 25px;
+    
+}
+
+.section1 {
+    font-size: 25px;
+    margin-right: 350px;
+    line-height: 45px;
+    
+    
+    
+}
+
+.section2 {
+    
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 25px;
+    
+}
+
+
+.regular {
+    text-align: center;
+    margin-left: -400px;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+
+.bold {
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+
+.italic {
+    text-align: center;
+    margin-left: 400px;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+
+.section3 {
+    
+}
+
+
+.sh {
+    margin-top: 400px;
+    margin-left: 250px;
+    font-size: 30px;
+    font-style: italic;
+    letter-spacing: 18px;
+
+}
+
+.tc {
+    font-size: 70px;
+    margin-top: -500px;
+    margin-left: 200px;
+    letter-spacing: -8px;
+}
+
+.ph {
+    text-align: left;
+    font-size: 45px;
+    letter-spacing: 35px;
+    margin-left: 800px;
+    margin-top: -170px;
+
+    
+}
+
+.ad {
+    writing-mode: vertical-lr;
+    font-size: 45px;
+    margin-top: -400px;
+    margin-left: 625px;
+    font-style: italic;
+    
+}
+
+.dt {
+    
+    margin-left: 700px;
+    writing-mode: vertical-lr;
+    font-size: 75px;
+    margin-top: 170px;
+    letter-spacing: 10px;
+}
+
+
+.section4 {
+    display: grid;
+    grid-template-columns: 2fr 5fr 3fr;
+    
+    
+    
+}
+
+
+.p1 {
+    font-size: 18px;
+    letter-spacing: 3px;
+    line-height: 20px;
+}
+
+.p2 {
+    margin-top: 210px;
+    margin-left: 25px;
+    margin-right: 25px;
+    line-height: 50px;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+.p3 {
+    margin-top: 35px;
+    font-size: 12px;
+    
+    
+}
+
+.section5 {
+    
+}
+
+
+
+.pan1 {
+    font-size: 35px;
+
+
+}
+.pan1-2{
+    font-size: 35px;
+    opacity: 80%;
+    margin-top: -55px;
+}
+.pan1-3{
+    font-size: 35px;
+    opacity: 60%;
+    margin-top: -55px;
+}
+.pan1-4{
+    font-size: 35px;
+    opacity: 40%;
+    margin-top: -55px;
+}
+.pan1-5{
+    font-size: 35px;
+    opacity: 20%;
+    margin-top: -55px;
+}
+
+.pan2 {
+    font-size: 20px;
+    text-align: center;
+    margin-left: 30px;
+    padding: 0;
+    margin-top: 120px;
+    animation: ani 9.5s linear infinite;
+    
+}
+@keyframes ani{
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
+.pan3 {
+    margin-top: 250px;
+    padding: 0%;
+    text-align: right;
+}
+.pan3:hover {
+    letter-spacing: 25px;
+    font-size: 18px;
+    font-style: italic;
+    margin-right: 25px;
+}
+.spacer1{
+    height:136px;
+    width: 100%;
+}
+
+.spacer2{
+    height:136px;
+    width: 100%;
+}
+
+.spacer3{
+    height:150px;
+    width: 100%;
+}
+
+.spacer4{
+    height:136px;
+    width: 100%;
+}
+
+.spacer5{
+    height:136px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
